@@ -1,17 +1,98 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
 		<meta charset="utf-8" />
-		<title></title>
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable" />
+		<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+		<meta content="telephone=no" name="format-detection" />
+		<meta name="msapplication-tap-highlight" content="no">
+		<title>首页</title>
+		<script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+	    <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular-animate.min.js"></script>
+	    <link href="http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+        <script src="http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
-
-	<body>
-		<header>
-			<div class="topbar">
-
-			</div>
-		</header>
+	<body class="bg1">
+		<div class="wapper">
+			<header class="header">
+				<div class="topbar">
+					<ul id="myTab" class="nav nav-tabs">
+					   <li class="active">
+					      <a href="#middle_school" data-toggle="tab">
+					         <span>初中入学</span> 
+					      </a>
+					   </li>
+					   <li>
+					   	<a href="#examination" data-toggle="tab">
+					   	    <span>中考中招</span>
+					   	</a>
+					   </li>
+					</ul>
+			    </div>
+			</header>
+			<div class="container-fluid">	
+				<div id="myTabContent" class="tab-content">
+				   <div class="tab-pane fade in active" id="middle_school">
+				      <ul class="sub_menu">
+				      	<li>
+				      		<a href="#">
+				      		  <div>
+				      		  	<span class="icon_look">查看工作进度</span>
+				      		  </div>
+				        	</a>
+				      	</li>
+				      	<li>
+				      		<a href="#">
+				      		  <div>
+				      		  	<span class="icon_search">查看工作进度</span>
+				      		  </div>
+				        	</a>
+				      	</li>
+				      	<li>
+				      		<a href="#">
+				      		  <div>
+				      		  	<span class="icon_infor">查看工作进度</span>
+				      		  </div>
+				        	</a>
+				      	</li>
+				      </ul>
+				   </div>
+				   <div class="tab-pane fade" id="examination">
+				      <ul class="sub_menu">
+				      	<li>
+				      		<a href="#">
+				      		  <div>
+				      		  	<span class="icon_look">查看工作进度</span>
+				      		  </div>
+				        	</a>
+				      	</li>
+				      	<li>
+				      		<a href="#">
+				      		  <div>
+				      		  	<span class="icon_search">查看工作进度</span>
+				      		  </div>
+				        	</a>
+				      	</li>				      
+				      </ul>
+				      <div class="submenu">
+				      	<p><span>数据分析</span></p>
+				      </div>
+				   </div> 
+				</div>
+			</div>				
+		    <div class="footer">
+		    	<div class="foot_menu">
+		    		<a href="#" class="bord_right"><i class="icon_mine"></i></a>
+		    		<a href="#"><i class="icon_exit"></i></a>
+		    	</div>
+		    </div>  
+		</div>		
 	</body>
-
 </html>
+
+
+
+
